@@ -30,7 +30,7 @@ const dashboard = () => {
 
           <form
             action=""
-            className="flex w-full  justify-center mx-auto"
+            className="flex w-full items-center justify-center mx-auto"
             onSubmit={handleSubmit}
           >
             <input
