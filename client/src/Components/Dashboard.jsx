@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import ListTodos from "./ListTodos";
 
 const dashboard = () => {
   const [description, setDescription] = useState("");
@@ -43,7 +44,7 @@ const dashboard = () => {
               }}
             />
             <button
-              className="border border-neutral-400 bg-green-400 rounded-md w-40"
+              className="border border-neutral-400 bg-green-800 rounded-md w-40 px-3 py-1 text-white"
               type="submit"
             >
               Add
@@ -51,6 +52,7 @@ const dashboard = () => {
           </form>
         </div>
       </div>
+      <ListTodos/>
     </>
   );
 };
